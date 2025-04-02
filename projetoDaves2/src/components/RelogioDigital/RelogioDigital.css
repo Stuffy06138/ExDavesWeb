@@ -3,7 +3,7 @@
     padding: 1rem;
     border-radius: 5px;
     text-align: center;
-    width: 200px;
+    width: auto;
   }
   
   .clock h2 {
