@@ -1,0 +1,35 @@
+.progress-bar-container {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    background-color: #f3f3f3;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+    height: 20px;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #4caf50;
+    transition: width 0.3s;
+  }
+  
+  .progress-bar-container button {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .progress-bar-container button:hover {
+    opacity: 0.8;
+  }

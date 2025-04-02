@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import RandomNumber from './components/RandomNumber/randomNumber'
-import ProductTable from './components/Table/table'
+import Table from './components/Table/table'
 
 function App() {
   const products = [
@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="app-container">
       <RandomNumber min={1} max={60} />
-      <ProductTable products={products} />
+      <Table products={products} />
     </div>
   );
 }
