@@ -1,0 +1,32 @@
+.voting-system {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .voting-system .options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+  }
+  
+  .voting-system .options div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .voting-system button {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .voting-system button:hover {
+    opacity: 0.8;
+  }  
