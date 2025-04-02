@@ -1,0 +1,35 @@
+.card {
+    background: #333;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: #444;
+    cursor: pointer;
+    font-weight: bold;
+}
+.card-body {
+    padding: 15px;
+    background: #eee;
+    color: #000;
+    /* display: none; */
+}
+
+.arrow {
+    transition: transform 0.3s;
+    padding-left: 5px;
+}
+
+.close {
+    display: none;
+}
+
+.closeArrow {
+    transform: rotate(180deg);
+}
