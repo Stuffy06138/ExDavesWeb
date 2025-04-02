@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import './randomNumber.css'
+import './RandomNumber.css'
 
-function randomNumber ({ min, max }) {
+function RandomNumber ({ min, max }) {
     const [number, setNumber] = useState(
       Math.floor(Math.random() * (max - min + 1)) + min
     );
@@ -16,4 +16,4 @@ function randomNumber ({ min, max }) {
     );
   };
 
-  export default randomNumber;
+  export default RandomNumber;

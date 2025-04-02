@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import './table.css'
+import './Table.css'
 
-function table ({ products }) {
+function Table ({ products }) {
     return (
       <table className="table">
         <thead>
@@ -24,4 +24,4 @@ function table ({ products }) {
     );
   };
 
-export default table;
+export default Table;
