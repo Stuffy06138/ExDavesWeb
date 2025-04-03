@@ -26,7 +26,7 @@ const Card = ( {titulo, cor, children } )=>{
                 onClick={canClosed}>❌</span>
 
             </div>
-            <div className={(open==1)?'card-body':'card-body close'}>
+            <div className={(open==0)?'card-body':'card-body close'}>
                {children}
             </div>
 
